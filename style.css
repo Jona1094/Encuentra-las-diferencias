@@ -1,0 +1,364 @@
+body {
+    width: 100%;
+    height: 100vh;
+    }
+
+
+.img {
+    width: 40%;
+    height: 90%;
+    position: relative;
+    flex-direction: row;
+}
+
+#img {
+    margin-left: 3rem;
+}
+
+.clicUno {
+    position: absolute;
+    top: 228px;
+    left: 140px;
+    height: 50px;
+    width: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.clicUno.rojo {
+    position: absolute;
+    top: 231px;
+    left: 150px;
+    height: 50px;
+    width: 80px;
+    border: solid rgb(200, 11, 42) 3px;
+    border-radius: 50%;
+}
+
+.clicUno.rojo1 {
+    position: absolute;
+    top: 231px;
+    left: 400px;
+    height: 50px;
+    width: 80px;
+    border: solid rgb(200, 12, 44) 3px;
+    border-radius: 50%;
+}
+
+.bambi {
+    width: 5%;
+    height: 5%;
+}
+
+.clicDos {
+    position: absolute;
+    top: 28%;
+    left: 18%;
+    height: 20px;
+    width: 60px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.clicDos.azul {
+    position: absolute;
+    top: 28%;
+    left: 18%;
+    height: 22px;
+    width: 62px;
+    border: solid 3px blue;
+    border-radius: 50%;
+}
+
+.clicDosImg {
+    position: absolute;
+    top: 28%;
+    left: 58%;
+    height: 22px;
+    width: 62px;
+    border: solid 3px blue;
+    display: none;
+    border-radius: 50%;
+}
+
+.clicTres {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    height: 12%;
+    width: 10%;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.clicTres.verde {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    height: 12%;
+    width: 10%;
+    border: solid rgb(242, 0, 255) 3px;
+    border-radius: 50%;
+}
+
+.clicTresImg {
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    height: 12%;
+    width: 10%;
+    border: solid rgb(242, 0, 255) 3px;
+    display: none;
+    border-radius: 50%;
+}
+
+.clicCuatro {
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    height: 7%;
+    width: 5%;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.clicCuatro.rosa {
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    height: 7%;
+    width: 5%;
+    border: solid 3px blue;
+    border-radius: 50%;
+}
+
+.clicCuatroImg {
+    position: absolute;
+    top: 43%;
+    left: 69%;
+    height: 7%;
+    width: 5%;
+    border: solid 3px blue;
+    display: none;
+    border-radius: 50%;
+}
+
+.clicCinco {
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    height: 25px;
+    width: 6%;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.clicCinco.flor {
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    height: 25px;
+    width: 6%;
+    border: solid 3px  rgb(255, 234, 0);
+    border-radius: 50%;
+}
+
+.clicCincoImg {
+    position: absolute;
+    top: 25%;
+    left: 73%;
+    height: 25px;
+    width: 6%;
+    border: solid 3px rgb(255, 234, 0);
+    display: none;
+    border-radius: 50%;
+}
+
+.clicSeis {
+    position: absolute;
+    top: 160px;
+    left: 70px;
+    height: 70px;
+    width: 100px;
+    transform: rotate(45deg);
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.clicSeis.bambi {
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    height: 70px;
+    width: 100px;
+    transform: rotate(45deg);
+    border: solid 3px red;
+    border-radius: 50%;
+}
+
+.clicSeis.bambi1 {
+    position: absolute;
+    top: 160px;
+    left: 310px;
+    height: 70px;
+    width: 100px;
+    transform: rotate(45deg);
+    border: solid 3px red;
+    border-radius: 50%;
+}
+
+.clicSiete {
+    position: absolute;
+    top: 160px;
+    left: 70px;
+    height: 70px;
+    width: 100px;
+    transform: rotate(45deg);
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+body {
+    width: 100%;
+    height: 100vh;
+    }
+
+.img {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.clicUno {
+    position: absolute;
+    top: 228px;
+    left: 140px;
+    height: 50px;
+    width: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.clicUno.rojo {
+    position: absolute;
+    top: 228px;
+    left: 140px;
+    height: 50px;
+    width: 80px;
+    border: solid rgb(200, 11, 42) 3px;
+    border-radius: 50%;
+}
+
+.clicUno.rojo1 {
+    position: absolute;
+    top: 510px;
+    left: 140px;
+    height: 50px;
+    width: 80px;
+    border: solid rgb(200, 12, 44) 3px;
+    border-radius: 50%;
+}
+
+.clicDos {
+    position: absolute;
+    top: 83px;
+    left: 125px;
+    height: 15px;
+    width: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.clicDos.azul {
+    position: absolute;
+    top: 83px;
+    left: 121px;
+    height: 17px;
+    width: 45px;
+    border: solid 3px blue;
+    border-radius: 50%;
+}
+
+.clicDos.azul1 {
+    position: absolute;
+    top: 360px;
+    left: 121px;
+    height: 17px;
+    width: 45px;
+    border: solid 3px blue;
+    border-radius: 50%;
+}
+
+.clicTres {
+    position: absolute;
+    top: 75px;
+    left: 250px;
+    height: 15px;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.clicTres.verde {
+    position: absolute;
+    top: 75px;
+    left: 245px;
+    height: 15px;
+    width: 30px;
+    border: solid blue 3px;
+    border-radius: 50%;
+}
+
+.clicTres.verde1 {
+    position: absolute;
+    top: 355px;
+    left: 245px;
+    height: 15px;
+    width: 30px;
+    border: solid blue 3px;
+    border-radius: 50%;
+}
+
+.clicCuatro {
+    position: absolute;
+    top: 41%;
+    left: 230px;
+    height: 25px;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.clicCuatro.rosa {
+    position: absolute;
+    top: 41%;
+    left: 230px;
+    height: 25px;
+    width: 30px;
+    border: solid 3px blue;
+    border-radius: 50%;
+}
+
+.clicCuatro.rosa1 {
+    position: absolute;
+    top: 41%;
+    left: 480px;
+    height: 25px;
+    width: 30px;
+    border: solid 3px blue;
+    border-radius: 50%;
+}
+}
