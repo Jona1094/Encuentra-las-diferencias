@@ -18,6 +18,7 @@ let img2 = document.querySelector (".clicDosImg");
 let correcto2 = () => {
     boton2.classList.add("azul"); 
     img2.style.display = 'flex' 
+    swal ( " Perfecto! " ) ;
 }
 
 boton2.addEventListener("click", correcto2);
@@ -30,6 +31,7 @@ let img3 = document.querySelector (".clicTresImg");
 let correcto3 = () => {
     boton3.classList.add("verde"); 
     img3.style.display = 'flex' 
+    swal ( " ¡Dale, vas bien! " ) ;
 }
 boton3.addEventListener("click", correcto3);
 img3.addEventListener("click", correcto3);
@@ -39,7 +41,8 @@ let img4 = document.querySelector (".clicCuatroImg");
 
 let correcto4 = () => {
     boton4.classList.add("rosa"); 
-    img4.style.display = 'flex' 
+    img4.style.display = 'flex'
+    swal ( " Esooo! " ) ; 
 }
 boton4.addEventListener("click", correcto4);
 img4.addEventListener("click", correcto4);
@@ -50,6 +53,7 @@ let img5 = document.querySelector (".clicCincoImg");
 let correcto5 = () => {
     boton5.classList.add("flor"); 
     img5.style.display = 'flex' 
+    swal ( " ¡Bien, muy atento!! " ) ;
 }
 boton5.addEventListener("click", correcto5);
 img5.addEventListener("click", correcto5);
